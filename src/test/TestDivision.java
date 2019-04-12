@@ -20,7 +20,7 @@ public class TestDivision {
 	public void testDivisionByNegative() {
 		
 		BasicCalculations b = new BasicCalculations();
-		double output = b.PerfectDivision(10, -5);
+		double output = b.PerfectDivision(10, 10);
 		assertEquals((double) -2, output, 0);
 		
 	}

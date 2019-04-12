@@ -4,3 +4,10 @@ jdk:
  
 script:
 - ant build
+
+jobs:
+  include:
+# starter
+    - stage: starter
+      name: "Jupiter Starter Sample: Ant"
+      script: cd $TRAVIS_BUILD_DIR/junit5-jupiter-starter-ant && ./build.sh

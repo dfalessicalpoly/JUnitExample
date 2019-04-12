@@ -15,6 +15,7 @@ public class BasicCalculations {
 	public int PerfectSum (int a, int b){
 		int result;
 			result = a + b;
+			
 		return (result);
 	}
 
